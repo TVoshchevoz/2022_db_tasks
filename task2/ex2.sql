@@ -1,0 +1,1 @@
+SELECT COUNT(*) as count FROM film_actor WHERE actor_ID=(SELECT actor_id FROM actor WHERE first_name='Matthew' AND last_name='Johansson');
